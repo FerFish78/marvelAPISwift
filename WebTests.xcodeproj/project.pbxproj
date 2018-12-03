@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A4E130821B533A200CEE041 /* Comic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A4E130621B533A200CEE041 /* Comic.xcdatamodeld */; };
 		5A9300B821AFEFA900D5BB1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9300B721AFEFA900D5BB1A /* AppDelegate.swift */; };
-		5A9300BA21AFEFA900D5BB1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9300B921AFEFA900D5BB1A /* ViewController.swift */; };
 		5A9300BD21AFEFA900D5BB1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A9300BB21AFEFA900D5BB1A /* Main.storyboard */; };
 		5A9300BF21AFEFAA00D5BB1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A9300BE21AFEFAA00D5BB1A /* Assets.xcassets */; };
 		5A9300C221AFEFAA00D5BB1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A9300C021AFEFAA00D5BB1A /* LaunchScreen.storyboard */; };
+		5A9300CA21B001BB00D5BB1A /* ComicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9300C921B001BB00D5BB1A /* ComicTableViewController.swift */; };
+		5A9300CC21B0037400D5BB1A /* ComicViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9300CB21B0037400D5BB1A /* ComicViewCell.swift */; };
+		5A9300CE21B0075800D5BB1A /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9300CD21B0075800D5BB1A /* Tools.swift */; };
+		5AAE479821B12D0200D557AC /* Modelo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAE479721B12D0200D557AC /* Modelo.swift */; };
+		5AAE479A21B160FE00D557AC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAE479921B160FE00D557AC /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A4E130721B533A200CEE041 /* DatosComic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DatosComic.xcdatamodel; sourceTree = "<group>"; };
 		5A9300B421AFEFA900D5BB1A /* WebTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A9300B721AFEFA900D5BB1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5A9300B921AFEFA900D5BB1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5A9300BC21AFEFA900D5BB1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A9300BE21AFEFAA00D5BB1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A9300C121AFEFAA00D5BB1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A9300C321AFEFAA00D5BB1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A9300C921B001BB00D5BB1A /* ComicTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicTableViewController.swift; sourceTree = "<group>"; };
+		5A9300CB21B0037400D5BB1A /* ComicViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicViewCell.swift; sourceTree = "<group>"; };
+		5A9300CD21B0075800D5BB1A /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		5AAE479721B12D0200D557AC /* Modelo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modelo.swift; sourceTree = "<group>"; };
+		5AAE479921B160FE00D557AC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +65,13 @@
 			isa = PBXGroup;
 			children = (
 				5A9300B721AFEFA900D5BB1A /* AppDelegate.swift */,
-				5A9300B921AFEFA900D5BB1A /* ViewController.swift */,
 				5A9300BB21AFEFA900D5BB1A /* Main.storyboard */,
+				5A9300CD21B0075800D5BB1A /* Tools.swift */,
+				5AAE479721B12D0200D557AC /* Modelo.swift */,
+				5A9300CB21B0037400D5BB1A /* ComicViewCell.swift */,
+				5A9300C921B001BB00D5BB1A /* ComicTableViewController.swift */,
+				5A4E130621B533A200CEE041 /* Comic.xcdatamodeld */,
+				5AAE479921B160FE00D557AC /* Extensions.swift */,
 				5A9300BE21AFEFAA00D5BB1A /* Assets.xcassets */,
 				5A9300C021AFEFAA00D5BB1A /* LaunchScreen.storyboard */,
 				5A9300C321AFEFAA00D5BB1A /* Info.plist */,
@@ -135,8 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A9300BA21AFEFA900D5BB1A /* ViewController.swift in Sources */,
 				5A9300B821AFEFA900D5BB1A /* AppDelegate.swift in Sources */,
+				5AAE479A21B160FE00D557AC /* Extensions.swift in Sources */,
+				5A9300CC21B0037400D5BB1A /* ComicViewCell.swift in Sources */,
+				5A9300CA21B001BB00D5BB1A /* ComicTableViewController.swift in Sources */,
+				5A4E130821B533A200CEE041 /* Comic.xcdatamodeld in Sources */,
+				5A9300CE21B0075800D5BB1A /* Tools.swift in Sources */,
+				5AAE479821B12D0200D557AC /* Modelo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +356,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5A4E130621B533A200CEE041 /* Comic.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5A4E130721B533A200CEE041 /* DatosComic.xcdatamodel */,
+			);
+			currentVersion = 5A4E130721B533A200CEE041 /* DatosComic.xcdatamodel */;
+			path = Comic.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 5A9300AC21AFEFA900D5BB1A /* Project object */;
 }
